@@ -40,15 +40,13 @@
 
 .articles {
     display: flex;
-    flex-flow: row nowrap;
+    /* flex-flow: row nowrap; */
     justify-content: center space-evenly;
     padding: 40px;
 }
 
 .article-1, .article-2, .article-3 {
 
-    display: flex;
-    flex-direction: row;
     
 }
 
