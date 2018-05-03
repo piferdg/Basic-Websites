@@ -1,7 +1,63 @@
-.topnav {
+.header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background: rgb(49, 47, 47);
+    color: rgb(120, 132, 145);
+    margin-bottom: 25px;
+    padding-left: 25px;
+
+}
+
+.nav-container {
+    /* line-height: 100px; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    height: 50px;
+    width: 400px;
+    padding: 25px 50px;
+    background-color: black;
+    list-style: none;
+    margin-right: 100px;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.main-image {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.articles {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center space-evenly;
+    padding: 40px;
+}
+
+.article-1, .article-2, .article-3 {
+
+    display: flex;
+    flex-direction: row;
     
 }
 
+.footer {
+    background-color: dimgray;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;    
+
+
+}
