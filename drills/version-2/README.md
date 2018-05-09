@@ -12,3 +12,6 @@ Create the blog's landing page from the screenshot below, given the following co
 ![](img/blog-wireframe.png)
 
 Note: This wireframe was inspired by [Hydeout Jekyll Theme](https://fongandrew.github.io/hydeout/)
+
+Link to my deployed site:
+https://rockies-blog.firebaseapp.com/
