@@ -41,7 +41,8 @@ main {
     align-items: center;
     justify-content: space-around;
     height: 20vw;
-    background: url(assets/bull-and-bush-bar.jpg); 
+    background: url(assets/bull-and-bush-bar.jpg);
+    background-size: cover;  
     border: 1px solid black;
 }
 
